@@ -19,9 +19,9 @@ go:
   - 1.11.1
 
 script:
-- mkdir -p $HOME/gopath/src/github.com/exaring/
-- ln -s $TRAVIS_BUILD_DIR $HOME/gopath/src/github.com/exaring/openconfig-streaming-telemetry-exporter || true
-- cd $HOME/gopath/src/github.com/exaring/openconfig-streaming-telemetry-exporter
+- mkdir -p $HOME/gopath/src/github.com/jsenecal/
+- ln -s $TRAVIS_BUILD_DIR $HOME/gopath/src/github.com/jsenecal/openconfig-streaming-telemetry-exporter || true
+- cd $HOME/gopath/src/github.com/jsenecal/openconfig-streaming-telemetry-exporter
 - go test -v -cover -coverprofile=coverage.out ./...
-- go install github.com/exaring/openconfig-streaming-telemetry-exporter/vendor/github.com/q3k/goveralls/
+- go install github.com/jsenecal/openconfig-streaming-telemetry-exporter/vendor/github.com/q3k/goveralls/
 - $HOME/gopath/bin/goveralls -coverprofile=coverage.out -merge=false

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/exaring/openconfig-streaming-telemetry-exporter/pkg/collector"
-	"github.com/exaring/openconfig-streaming-telemetry-exporter/pkg/config"
+	"github.com/jsenecal/openconfig-streaming-telemetry-exporter/pkg/collector"
+	"github.com/jsenecal/openconfig-streaming-telemetry-exporter/pkg/config"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 	promlog "github.com/prometheus/common/log"
@@ -36,7 +36,7 @@ func (fe *Frontend) Start() {
 			<h1>OpenConfig Streaming Telemetry Exporter</h1>
 			<p><a href="` + fe.cfg.MetricsPath + `">Metrics</a></p>
 			<h2>More information:</h2>
-			<p><a href="https://github.com/exaring/openconfig-streaming-telemetry-exporter">github.com/exaring/openconfig-streaming-telemetry-exporterr</a></p>
+			<p><a href="https://github.com/jsenecal/openconfig-streaming-telemetry-exporter">github.com/jsenecal/openconfig-streaming-telemetry-exporterr</a></p>
 			</body>
 			</html>`))
 	})

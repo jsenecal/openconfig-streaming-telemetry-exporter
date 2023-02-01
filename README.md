@@ -15,13 +15,13 @@ Known issues:
 [![Build Status](https://travis-ci.org/exaring/openconfig-streaming-telemetry-exporter.svg?branch=master)](https://travis-ci.org/exaring/openconfig-streaming-telemetry-exporter)
 [![Coverage Status](https://coveralls.io/repos/exaring/openconfig-streaming-telemetry-exporter/badge.svg?branch=master&service=github)](https://coveralls.io/github/exaring/openconfig-streaming-telemetry-exporter?branch=master)
 [![Go ReportCard](http://goreportcard.com/badge/exaring/openconfig-streaming-telemetry-exporter)](http://goreportcard.com/report/exaring/openconfig-streaming-telemetry-exporter)
-[![Go Doc](https://godoc.org/github.com/exaring/openconfig-streaming-telemetry-exporter?status.svg)](https://godoc.org/github.com/exaring/openconfig-streaming-telemetry-exporter)
+[![Go Doc](https://godoc.org/github.com/jsenecal/openconfig-streaming-telemetry-exporter?status.svg)](https://godoc.org/github.com/jsenecal/openconfig-streaming-telemetry-exporter)
 
 **PRs for other systems welcome!**
 
 ## Install
 
-```go get github.com/exaring/openconfig-streaming-telemetry-exporter```
+```go get github.com/jsenecal/openconfig-streaming-telemetry-exporter```
 
 ## Run
 

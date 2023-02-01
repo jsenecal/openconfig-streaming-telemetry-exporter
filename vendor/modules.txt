@@ -19,8 +19,7 @@ github.com/go-ole/go-ole
 github.com/go-ole/go-ole/oleutil
 # github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
 github.com/golang/glog
-# github.com/golang/protobuf v1.5.1
-## explicit
+# github.com/golang/protobuf v1.5.0
 github.com/golang/protobuf/proto
 github.com/golang/protobuf/ptypes
 github.com/golang/protobuf/ptypes/any
@@ -57,10 +56,10 @@ github.com/shirou/gopsutil/load
 # github.com/sirupsen/logrus v1.8.1
 ## explicit
 github.com/sirupsen/logrus
-# github.com/stretchr/testify v1.7.0
+# github.com/stretchr/testify v1.8.0
 ## explicit
 github.com/stretchr/testify/assert
-# golang.org/x/net v0.0.0-20210316092652-d523dce5a7f4
+# golang.org/x/net v0.0.0-20220722155237-a158d28d115b
 ## explicit
 golang.org/x/net/context
 golang.org/x/net/http/httpguts
@@ -69,14 +68,14 @@ golang.org/x/net/http2/hpack
 golang.org/x/net/idna
 golang.org/x/net/internal/timeseries
 golang.org/x/net/trace
-# golang.org/x/sys v0.0.0-20210317225723-c4fcb01b228e
+# golang.org/x/sys v0.0.0-20220829200755-d48e67d00261
 ## explicit
 golang.org/x/sys/internal/unsafeheader
 golang.org/x/sys/unix
 golang.org/x/sys/windows
 golang.org/x/sys/windows/registry
 golang.org/x/sys/windows/svc/eventlog
-# golang.org/x/text v0.3.5
+# golang.org/x/text v0.3.8
 ## explicit
 golang.org/x/text/secure/bidirule
 golang.org/x/text/transform
@@ -132,7 +131,8 @@ google.golang.org/grpc/stats
 google.golang.org/grpc/status
 google.golang.org/grpc/tap
 google.golang.org/grpc/test/bufconn
-# google.golang.org/protobuf v1.26.0
+# google.golang.org/protobuf v1.28.1
+## explicit
 google.golang.org/protobuf/encoding/prototext
 google.golang.org/protobuf/encoding/protowire
 google.golang.org/protobuf/internal/descfmt
@@ -168,6 +168,5 @@ gopkg.in/alecthomas/kingpin.v2
 # gopkg.in/yaml.v2 v2.4.0
 ## explicit
 gopkg.in/yaml.v2
-# gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b
-## explicit
+# gopkg.in/yaml.v3 v3.0.1
 gopkg.in/yaml.v3
